@@ -1,4 +1,4 @@
-create table clientes (
+create table cliente (
   cliente_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(255) NOT NULL,
   apellido VARCHAR(255) NOT NULL,
