@@ -1,0 +1,7 @@
+{
+  "name": "sigroApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
