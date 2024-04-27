@@ -1,0 +1,38 @@
+ion-content {
+    margin-top: 15px;
+    --background: #343333;
+    color: #fff;
+    
+  }
+
+.gris{
+  --background: #000000;
+  color: #fff;
+
+}
+
+  .imagen-icon {
+
+    font-size: 100px;
+    opacity: 30%;
+
+  }
+  ion-avatar {
+    width: 200px;
+    height: 160px;
+    --border-radius: 15px;
+    margin: 0 auto;
+
+  }
+
+
+  ion-toolbar{
+
+    --background: #0d0c0c;
+    color: #fff;
+  }
+  .text-white {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+  }

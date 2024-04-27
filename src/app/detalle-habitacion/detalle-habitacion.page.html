@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Detalle Habitación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- Fondo gris oscuro para el contenido -->
+<ion-content id="main-content" [fullscreen]="true" class="ion-padding bg-dark-gray">  
+
+   <img src="/assets/icon/fondohome.jpg" class="background-image">
+
+   <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col size="12">
+        <div class="titulo">
+          <ion-label position="floating">{{ producto.name }}</ion-label>
+        </div>
+      </ion-col>
+    </ion-row> 
+  </ion-grid>
+
+  <!-- Grilla para las tarjetas -->
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col size="12" size-md="6" size-lg="4">
+        <div class="card-container">
+          <ion-card class="expanded-card bg-dark-gray"> 
+            <img [src]="producto.image" />
+
+            <ion-card-content>
+
+
+              <ion-card-subtitle>{{ producto.descripcion }}</ion-card-subtitle>
+              <p>Precio: {{ producto.price }}</p>
+              <p>Tipo: {{ producto.tipo }}</p>
+              <p>Capacidad: {{ producto.capacidad }}</p>
+
+             
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col size="12">
+        <div class="subtitulo textwhite">
+          <ion-label position="floating">Galería</ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-slides pager="true" class="slides-container">
+      <ion-slide>
+        <img src="/assets/icon/bano.jpg" class="slide-image" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/icon/piscina.jpg" class="slide-image" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/icon/cocina.jpg" class="slide-image" />
+      </ion-slide>
+    </ion-slides>
+  </ion-grid>
+
+  <!-- Fecha de reserva -->
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>  <!-- Mantener el fondo gris oscuro -->
+          <ion-label class="textwhite">Desde:</ion-label>
+          <ion-datetime class="time" presentation="date" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" display-time-picker="false" [(ngModel)]="fechaInicio"></ion-datetime>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item >
+          <ion-label class="textwhite">Hasta:</ion-label>
+          <ion-datetime class="time"presentation="date" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" display-time-picker="false" [(ngModel)]="fechaFin"></ion-datetime>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Botones -->
+  <ion-button expand="block" (click)="guardarReserva()" class="bg-dark-gray">Reservar</ion-button>
+  <ion-button fill="clear" (click)="goBackToHome()">Volver</ion-button>
+</ion-content>

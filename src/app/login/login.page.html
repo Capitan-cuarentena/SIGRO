@@ -1,0 +1,82 @@
+
+
+
+
+<ion-content [fullscreen]="true" class="ion-padding login-content" menuEnabled="false">
+
+  <img src="/assets/icon/fondoplaya.png" class="background-image ">
+
+
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col size="12">
+        <div class="app-logo">
+          <img src="/assets/icon/logo.png" alt="Logo">
+        </div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="12" size-md="6" offset-md="3" class="ion-text-center login_box">
+        <form [formGroup]="form" class="auth-form" (ngSubmit)="submit()" (keypress.enter)="submit()">
+
+     
+          
+          <app-custom-input 
+          autocomplete="email"
+          icon = "mail-outline"
+          [control] ="form.controls.email"
+          type="email"
+          label="Correo">
+          </app-custom-input>
+
+
+          <div class="validator" *ngIf="form.controls.email.errors && form.controls.email.touched">
+
+            <div *ngIf="form.controls.email.errors?.['required']" class="text-white"> El correo es requerido</div>
+            <div *ngIf="form.controls.email.errors?.['email']"class="text-white"> Ingrese un correo valido</div>
+          </div>
+
+
+      
+          <app-custom-input class="custom-input" 
+          [control] ="form.controls.password"
+          icon = "lock-closed-outline"
+          type="password"
+          label="Contrasena">
+          
+          </app-custom-input>
+          
+
+          <div class="validator" *ngIf="form.controls.password.errors && form.controls.password.touched">
+
+            <div *ngIf="form.controls.password.errors?.['required']"class="text-white"> La contrasena es requerida</div>
+
+          </div>
+        
+
+          <!-- Botón de iniciar sesión -->
+          <ion-button type="submit" class="submit"expand="block"shape="round" [disabled]="form.invalid">
+            INGRESAR
+            <ion-icon slot="end" name="log-in-outline" fill="outline"></ion-icon>
+          </ion-button>
+
+
+          <!-- Botón de registro -->
+          <ion-button routerLink="/registro" class="button-register" expand="block" shape="round" class="submit">
+            REGISTRARSE
+            <ion-icon slot="end" name="person-add-outline" fill="outline"></ion-icon>
+          </ion-button>
+
+          <p routerLink="/recuperarcontrasena" class="ion-text-end text-white"> ¿Olvidaste tu contraseña? </p>
+        </form>
+
+ 
+
+
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

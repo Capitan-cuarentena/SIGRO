@@ -1,0 +1,119 @@
+
+
+ion-menu ion-icon {
+  --background: #090909;
+}
+.product-list {
+  max-width: 500px;  
+  padding-left: 10px; 
+}
+
+
+ion-menu {
+  --ion-background-color: rgb(246, 239, 239);
+}
+
+ion-menu-button {
+    --color: white; 
+  }
+  
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .app-logo {
+  
+    font-weight: bold;
+    color: #070606;
+    
+  
+  }
+  
+  .app-logo img {
+    width: 50px; 
+    margin-top: 4px;
+    margin-left: 20px;
+    height: 50px; 
+    border-radius: 100px; 
+    object-fit: cover; 
+    
+  }
+  
+  
+  .login_box {
+    margin-top: 20px;
+    position: relative;
+    width: 450px;
+    backdrop-filter: blur(2px);
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 1em 1em 1em 1em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+
+ 
+    ion-item {
+      margin-top: 15px;
+      --background: #fdfbff;
+      color: #090909;
+      
+    }
+  
+  
+  
+    
+  
+    ion-input {
+      color: rgb(236, 234, 234);
+      
+    }
+    
+    ion-button {
+      margin-top: 15px; 
+      
+    }
+    ion-card-header{
+      margin-top: -30px; 
+      text-align: center;
+      
+    }
+  
+    ion-toolbar {
+      --background: #215c70;
+  
+      
+    }
+  
+    search-bar{
+      --background: #dce0e2;
+      
+    }
+    .custom-searchbar {
+      width: 50%; 
+      margin: 0 auto; 
+    }
+    
+  
+    
+  
+    .background-image {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    

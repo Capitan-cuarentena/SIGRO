@@ -1,0 +1,30 @@
+
+  <app-menu></app-menu> <app-header></app-header> 
+  
+  <ion-content [fullscreen]="true" class="ion-padding login-content">
+    <img src="/assets/icon/fondohome.jpg" class="background-image ">
+
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="12">
+          <div class="titulo">
+            <ion-label position="floating">Historial de reservas</ion-label>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-item lines="none">
+        <ion-label><strong>Fecha Inicio</strong></ion-label>
+        <ion-label><strong>Fecha Termino</strong></ion-label>
+        <ion-label><strong>Habitacion</strong></ion-label>
+      </ion-item>
+
+      <ion-item lines="none" *ngFor="let reserva of historialReservas"> <ion-label>{{ reserva.fechaInicio | date:'mediumDate' }}</ion-label>
+        <ion-label>{{ reserva.fechaFin | date:'mediumDate' }}</ion-label>
+        <ion-label>{{ reserva.productName }}</ion-label>
+ </ion-item>
+    </ion-grid>
+
+    <ion-button class="textwhite" fill="clear" (click)="goBackToHome()">Volver</ion-button>
+  </ion-content>
+

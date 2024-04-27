@@ -1,0 +1,36 @@
+<ion-content [fullscreen]="true" class="ion-padding login-content">
+  <img src="/assets/icon/fondoplaya.png" class="background-image">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="12">
+        <div class="app-logo">
+          <img src="/assets/icon/logo.png" alt="Logo">
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" size-md="6" offset-md="3" class="ion-text-center login_box">
+        <form [formGroup]="formRecupera" (ngSubmit)="enviarContrasena()">
+          <!-- Input para ingresar email -->
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input formControlName="email" type="email" required></ion-input>
+          </ion-item>
+          
+          <!-- Se deshabilita si el campo de email no es válido -->
+          <ion-button class="button-send" type="submit" [disabled]="!isEmailValid" expand="block"shape="round">
+            Enviar Contraseña
+          </ion-button>
+
+          <!-- Boton de atras -->
+          <ion-button class="back-text text-white" fill="clear" routerLink="/login">
+            Volver
+          </ion-button>
+        </form>
+      </ion-col> 
+    </ion-row>
+  </ion-grid>
+</ion-content> 
