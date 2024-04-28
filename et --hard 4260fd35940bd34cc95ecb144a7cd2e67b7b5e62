@@ -1,0 +1,127 @@
+[33mcommit 296a1fd2c4e5af348f754277ddf649ab6c507bd3[m[33m ([m[1;36mHEAD -> [m[1;32mProyecto-Reserva-habitaciones[m[33m, [m[1;31morigin/Proyecto-Reserva-habitaciones[m[33m)[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sat Apr 27 21:02:06 2024 -0400
+
+    Resuelve el conflicto en el archivo de configuración
+
+[33mcommit b875e21041e3d4888a5155fae97c4241d134da96[m
+Merge: 4260fd3 d60b011
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Fri Apr 26 22:38:41 2024 -0400
+
+    Resuelve conflictos después del pull
+
+[33mcommit 4260fd35940bd34cc95ecb144a7cd2e67b7b5e62[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Fri Apr 26 22:37:03 2024 -0400
+
+    Listo
+
+[33mcommit b847f4f9434759ddc193952fc6cd44ff84e73e3f[m[33m ([m[1;32mmaster[m[33m)[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Fri Apr 26 22:29:52 2024 -0400
+
+    Version 2 final
+
+[33mcommit 35369f0c4701e5d3251b3f60c1612ad567684711[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Fri Apr 19 19:23:06 2024 -0400
+
+    Initial commit
+
+[33mcommit d60b0111dfd2703e632bcde471dc35c4ef757ec7[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 22:07:22 2024 -0400
+
+    Fixed
+
+[33mcommit 4316f53f734f8929d36388c052194ed58fa04006[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 22:04:15 2024 -0400
+
+    Fixed
+
+[33mcommit f13e5697cb013766ba8767d3b7f0aa0cf43d3c73[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 22:03:08 2024 -0400
+
+    Fixed
+
+[33mcommit 353ba230bee87b5d1789828743dfd8d1e267b3d9[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 22:01:58 2024 -0400
+
+    Fixed
+
+[33mcommit 97dfacefd4397475dc5a5c7c31063ba41837373b[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 22:00:11 2024 -0400
+
+    Fixed
+
+[33mcommit 8f9cbc1e47e81bdba61e42005bfb28446a160832[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 21:58:09 2024 -0400
+
+    Fixed
+
+[33mcommit 233fa4c2750fea24b242cb842891f862795f4505[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Thu Apr 18 20:58:11 2024 -0400
+
+    VERSION 2
+
+[33mcommit 98f74a6810b2221f448f245edaebd67e480d730d[m
+Merge: c3aaced b133e6e
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Mon Apr 15 23:53:06 2024 -0400
+
+    Merge branch 'Proyecto-Reserva-habitaciones' of https://github.com/Capitan-cuarentena/SIGRO into Proyecto-Reserva-habitaciones
+
+[33mcommit c3aaced70e53ebf027830d6c3519aabeb5dd5b56[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Mon Apr 15 23:50:11 2024 -0400
+
+    proyecto ionic
+
+[33mcommit b133e6e864f8b42ec53c7fdc9459a13c836d926d[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Apr 14 14:40:19 2024 -0400
+
+    CHANGE 1
+
+[33mcommit 831cd5a4d0af0c4e8d33e9f9eee78170e8ee11df[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Nov 12 21:45:40 2023 -0300
+
+    Descripción de los cambios
+
+[33mcommit 45809a70d6492af4ace593c6572c00016aee6ec8[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Nov 12 21:39:19 2023 -0300
+
+    Descripción de los cambios
+
+[33mcommit 987368deeacba9fcf3546d953affe3a95f3c4533[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Nov 12 21:25:52 2023 -0300
+
+    Descripción de los cambios
+
+[33mcommit d18781b959d54bc6ffd7c6edf9fe45e2fe2cc7dc[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Nov 12 21:17:19 2023 -0300
+
+    Preparación para actualización de Angular
+
+[33mcommit 8058ef0688b58d119331bc8c27246a0b64ca344f[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Nov 12 21:10:34 2023 -0300
+
+    Guarda los cambios antes de actualizar Angular
+
+[33mcommit f2e9b89a9995f027151fc13d320e96701fe9b966[m
+Author: FRANCO <francopavez1@gmail.com>
+Date:   Sun Nov 12 16:34:34 2023 -0300
+
+    Initial commit
